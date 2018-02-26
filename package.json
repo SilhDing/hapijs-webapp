@@ -1,0 +1,24 @@
+{
+  "name": "hapijs-webapp",
+  "version": "1.0.0",
+  "description": "This is a web app based on hapijs as well as a chance to exercise yourself.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilhDing/hapijs-webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilhDing/hapijs-webapp/issues"
+  },
+  "homepage": "https://github.com/SilhDing/hapijs-webapp#readme",
+  "dependencies": {
+    "hapi": "^16.0.0"
+  }
+}
