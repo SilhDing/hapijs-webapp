@@ -51,7 +51,7 @@ var html_con = function (name, content_toShow) {
     
             var save = function () {
                 info_alert = document.getElementById('content').value;
-                alert('您已经保存新的内容：  \\n\\n\\"' + info_alert + '\\"' );
+                alert('您已经保存新的内容：  \\n\\n“' + info_alert + '”' );
             }
         </script>
     
@@ -71,7 +71,8 @@ var html_con = function (name, content_toShow) {
         `;
     return str_html;
 }    
-    
+
+//find in mysql and show
 var mainPage = async function(request,h) {
     var contents = await Content.findAll({
         where: {
@@ -86,6 +87,7 @@ var mainPage = async function(request,h) {
     }
 };
 
+//update content
 var update_fun = async function (new_content) {
     var contents = await Content.findAll({
         where: {
@@ -101,7 +103,7 @@ var update_fun = async function (new_content) {
     }
 }
 
-// define route
+//
 const route = {
         method: 'GET',
         path: '/',
