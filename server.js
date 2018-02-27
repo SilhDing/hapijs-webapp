@@ -103,7 +103,6 @@ var update_fun = async function (new_content) {
     }
 }
 
-//
 const route = {
         method: 'GET',
         path: '/',
