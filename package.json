@@ -2,7 +2,7 @@
   "name": "hapijs-webapp",
   "version": "1.0.0",
   "description": "This is a web app based on hapijs as well as a chance to exercise yourself.",
-  "main": "server.js",
+  "main": "config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,7 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/SilhDing/hapijs-webapp.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/SilhDing/hapijs-webapp#readme",
   "dependencies": {
-    "hapi": "^16.0.0"
+    "hapi": "17.2.0",
+    "sequelize": "3.24.1",
+    "mysql": "2.11.1"
   }
 }
